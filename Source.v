@@ -31,7 +31,7 @@ reg [3:0]counter;
 reg [2:0]read_ptr,write_ptr;
 
 assign empty = (counter ==0);
-assign empty = (counter ==8);
+assign full = (counter ==8);
 
 
 
